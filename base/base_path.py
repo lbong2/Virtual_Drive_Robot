@@ -21,7 +21,7 @@ class PathList:
         
     def add(self, path: Path):
         self.FpathList.append(path)
-        self.FpathList[-1].id = len(self.FpathList) - 1
+        self.FpathList[-1].id = len(self.FpathList)
     
     def delete(self, id: int):
         self.FpathList.pop(id)

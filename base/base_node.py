@@ -25,7 +25,7 @@ class NodeList:
         
     def add(self, node: Node):
         self.FnodeList.append(node)
-        self.FnodeList[-1].id = len(self.FnodeList) - 1
+        self.FnodeList[-1].id = len(self.FnodeList)
     
     def delete(self, id: int):
         self.FnodeList.pop(id)
